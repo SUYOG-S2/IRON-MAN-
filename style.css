@@ -16,10 +16,6 @@ p {
   font-size: 14px;
 }
 
-a{
-  color: blue;
-}
-
 #canvas-container {
   background-color: #f0f0f0;
   flex: 3;

@@ -1,28 +1,29 @@
-/* Iteration 4: Make the Everything Work */
-const buttonBackground = document.getElementById("button-background");
-const imgBackground = document.getElementById("background");
+/* Iteration 4: Make the Canvas App Functional */
+// <!-- Ironman - background, helmet, eyes, face-plate  -->
+const imagebackground = document.getElementById('background');
+const buttonbackground = document.getElementById('btn-background');
 
-buttonBackground.oninput = ()=>{
-  imgBackground.style.fill = buttonBackground.value;
-}
+buttonbackground.oninput = () => {
+  imagebackground.style.fill = buttonbackground.value;
+};
 
-const buttonfaceplate = document.getElementById("button-face-plate");
-const faceplate = document.getElementById("face-plate");
+const imagehelmet = document.getElementById('helmet');
+const buttonhelmet = document.getElementById('btn-helmet');
 
-buttonfaceplate.oninput = ()=>{
-  faceplate.style.fill = buttonfaceplate.value;
-}
+buttonhelmet.oninput = () => {
+  imagehelmet.style.fill = buttonhelmet.value;
+};
 
-const buttoneyes = document.getElementById("button-eyes");
-const eyes = document.getElementById("eyes");
+const imageeyes = document.getElementById('eyes');
+const buttoneyes = document.getElementById('btn-eyes');
 
-buttoneyes.oninput = ()=>{
-  eyes.style.fill = buttoneyes.value;
-}
+buttoneyes.oninput = () => {
+  imageeyes.style.fill = buttoneyes.value;
+};
 
-const buttonhelmet = document.getElementById("button-helmet");
-const helmet = document.getElementById("helmet");
+const imagefaceplate = document.getElementById('face-plate');
+const buttonfaceplate = document.getElementById('btn-face-plate');
 
-buttonhelmet.oninput = ()=>{
-  helmet.style.fill = buttonhelmet.value;
-}
+buttonfaceplate.oninput = () => {
+  imagefaceplate.style.fill = buttonfaceplate.value;
+};
